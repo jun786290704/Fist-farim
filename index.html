@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>农夫三拳有点甜</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/cropslogo.PNG" rel="icon" type="image/png">
+  <link href="assets/img/cropslogo.PNG" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/web3/3.0.0-rc.5/web3.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<style>
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    font-weight: 800;
+    border: none;
+    font-size: 12px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #624b08;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-weight: 600;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 11px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #212429}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: transparent;
+  }
+  </style>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img style="height: 100%; width: 40px; padding-right: 5px;  font-family: cursive;" src="assets/img/cropslogo.PNG" alt=""> 这是 <span class="busd">小拳头</span> 农夫</a></img></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+	 <li>
+            <a class="nav-link" href="./assets/img/The BUSD Crops Farmer.pdf" target="_blank"><img class="nav-logo" id="logo" alt="" src="assets/img/ccs-audit.png"></img><strong>Audited by CyberCrimeShield™</strong></a>
+          </li>
+		<!--<a class=" scrollto bnb-miner glow-on-hover" href="" target="_blank">BNB Crops Farmer Soon!</a>-->
+	        <li> 
+            <a class="nav-link" href="https://pancakeswap.finance/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56" target="_blank"><img class="nav-logo" id="logo" alt="" src="assets/img/pancakeswap.svg"></img><strong>Buy BUSD</strong></a>
+          </li>	 
+	  <!--<li>
+	    <a class="nav-link scrollto" href="#faq">FAQs</a>
+	  </li>	-->
+    <div class="dropdown">
+      <!-- <button class="dropbtn"><img class="nav-logo" id="logo" alt="" src="assets/img/crobfarmerllogo.png">Farms</button>
+      <div class="dropdown-content">
+        <a href="https://bit.ly/3L9EuUY"><img class="nav-logo" id="logo" alt="" src="assets/img/crobfarmerllogo.png">BUSD Crop Farmer</a>
+        <a href="https://bit.ly/3k0ODr1"><img class="nav-logo" id="logo" alt="" src="assets/img/cropslogo.PNG">USDC-AVAX Crop Farmer</a>
+      </div> -->
+    </div>
+          <li>
+	           <!--<a class="nav-link" href="https://testnet.bscscan.com/address/0xa4be7b9f36495d07a1b1753c38cabc286af53757#code" target="_blank"><img class="nav-logo" id="logo" alt="" src="assets/img/bscscan-logo-light-circle.svg"></img><strong>Contract</strong></a>-->
+               <a class="nav-link" href="https://bscscan.com/address/0x8be8881C641Dc5A40845253Ee3eD04955eDFe96D#code" target="_blank"><img class="nav-logo" id="logo" alt="" src="assets/img/bscscan-logo-light-circle.svg"></img><strong>Contract</strong></a>
+             
+	</li>
+	        <!-- <li>
+            <a class="nav-link" href="https://twitter.com/BUSDCropFarmer" target="_blank"><img class="nav-logo" id="twitter" alt="" src="assets/img/twitter.svg"></img><strong>Twitter</strong></a>
+          </li> 
+           <li>
+            <a class="nav-link" href="https://t.me/busdcropfarmer" target="_blank"><img class="nav-logo" id="telegram" alt="" src="assets/img/telegram.svg"></img><strong>Telegram</strong></a>
+          </li> -->
+          <li>
+            <a class="nav-link" >
+              <button id="enableMetamask" class="btn connect-btn">链接钱包</button>
+            </a>
+          </li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <div id="banner">
+  <div id="wrapper">
+      <div id="container">
+	<!-- <a href="https://bnb.cropsfarmer.online?ref=0x558ab56c254d44fef450dc2bcd4a5335b88890c1" target="_blank"><img class="banner-img" src="assets/img/BNBHeader.PNG" alt="N.A.L.A. Apparel"></a> -->
+     	<!--
+	 <img class="banner-img" target="_blank" src="assets/img/BNBHeader.PNG" alt="N.A.L.A. Apparel"> 
+	 -->
+      </div>
+  </div>
+</div>
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="bg d-flex align-items-center justify-content-center">
+    
+      <div class="wrapper">
+        <div class="border"></div>
+        <div class="main-element">
+          <div class="container">
+      
+      <div class="content-box" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-6">
+            <br>			
+            <!--<h1><span class="busd">BUSD - Crops Farmer</span>!</h1>-->
+	    <h3 style="font-weight: bold; font-family: cursive;">
+		<i class="bi-cloud-sun"></i>
+	    <span class="busd">雇佣，种植，收获！</span>
+	    </h3>	  
+            <!--<h4>
+	    <i class="bi-cloud-sun"></i>
+            <span class="busd">Hire, Grow, Harvest!</span>
+            </h4>-->		  
+	    <h4>	
+            <i class="bi-check2-square bnb-icon"></i>
+            <span id="daily-rate">8% 每日 ~ 2920%年利率 </span>
+          </h4>
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span id="ref-bonus">8% 推荐奖金</span>
+          </h4>
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span>5% 开发/营销费用</span>
+          </h4>		  
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span id="daily-compound">2.5% 聘用奖金</span>
+          </h4>
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span><span id="compound-hours">12</span> 小时复合计时器</span>
+          </h4>
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span><span id="withdraw-cooldown">4</span> 小时撤回冷却</span>
+          </h4>
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span><span id="cut-off-step">48</span> 小时奖励累积截止日期</span>
+          </h4>		  
+          <h4>
+            <i class="bi-check2-square bnb-icon"></i>
+            <span><span id="no-tax-compound-count">5</span> 次强制复合特征</span>
+          </h4>    
+          <h4>
+          </div>
+          <div class="col-lg-6"><br>
+            <div class="stats-row-container">
+              <div class="stat">
+                <div class="header">
+				<br>
+                  总<span class="busd">Fist</span>锁定
+                </div>
+                <strong class="number" id="contract-balance">-</strong>
+              </div>
+              <!--
+			  <div class="stat">
+                <div class="header">
+			        	  <br>
+                  Total<span class="busd">BUSD</span>Referrals
+                </div>
+                <strong class="number" id="total-ref">-</strong>
+              </div>
+			  
+	             <div class="stat">
+                <div class="header">
+			        	  <br>
+                  Total<span class="busd">BUSD</span>Locked
+                </div>
+                <strong class="number" id="contract-balance">-</strong>
+              </div>
+		-->
+	       <div class="stat">
+                <div class="header">
+		  <br>
+                  总<span class="busd">存款</span>数
+                </div>
+                <strong class="number" id="total-players">-</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-2">
+          <div class="col-xl-12 disclaimer">
+            <span>
+              <strong style="color: orange;">重要的提示！</strong> 
+		    <p>
+          为了确保项目的可持续性和寿命，并且作为对之前类似矿工游戏的改进，作物农夫团队实施了一项功能，该功能将鼓励/强制农夫在获利之前不断复利。
+		    <p><p>
+          用户应复合 X 号。在他们可以退出之前的时间。如果一个农夫决定不使用他的收入复合或雇用更多的农夫，并不断退出，农夫将被收取 60% 的反馈税，这将是合同的一部分。
+		    <p>
+          此外，为了进一步鼓励社区重新雇佣/复合，用户每进行一次复合动作，将额外获得2.5%的奖励，连续10次/5天最多可叠加25%。通过这样做，这将确保每个投资者的长期潜在利润。
+		    <p>
+          团队可以推荐的最佳策略是重新雇用/复合 6 天，每周收获 1 天。这将增加用户投资的同时增加每日收益收益。该策略已经被多个项目尝试和测试，并且被证明是有效的。
+		    <p></i><strong style="color: red;">高风险！</strong> 用于最初雇用农夫（包括重新雇用）的资金不能撤回，但您的农夫将无限期地为您工作和种植农作物。请自行承担使用该应用程序的风险。
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <section id="mine" class="bg d-flex">
+      <div class="container main" data-aos="fade-up">
+        <div class="content-box">
+	<!--<h4 class="text-start busd" style="letter-spacing: 2px; margin-left: 5px;font-size: 2rem;"><u>Farmer Dashboard</u></h4>-->
+		<h4 style="color: #fff; font-weight: bold; font-family: cursive; justify-content: center; letter-spacing: 2px; margin-left: 5px;font-size: 2rem;" ><div class="busd">小拳头农夫仪表板</div></h4>
+          <div class="row stats-row-container">
+            <div class="col-lg-2 stat">
+              <div class="header">
+                <i class="bi-bank"></i>
+                <span>初始保证金</span>
+              </div>
+              <strong id="initial-deposit" class="number">-</strong>
+              <div>
+                <strong class="busd">BUSD</strong>
+              </div>
+            </div>
+            <div class="col-lg-2 stat">
+              <div class="header">
+                <i class="bi-bank"></i>
+                总存款
+              </div>
+              <strong id="total-deposit" class="number">-</strong>
+              <div>
+                <strong class="busd">Fist</strong>
+              </div>
+            </div>
+            <div class="col-lg-2 stat">
+              <div class="header">
+                <i class="bi-wallet2"></i>
+                出售农作物
+              </div>
+              <div>
+                <strong id="total-withdrawn" class="number">-</strong>
+              </div>
+              <div>
+                <strong class="busd">Fist</strong>
+              </div>
+            </div>
+            <div class="col-lg-2 stat">
+              <div class="header">
+                <i class="bi-people"></i>
+                推荐奖励
+                (<span id="ref-count">-</span>)
+              </div>
+              <div>
+                <strong id="ref-rewards-busd" class="number">-</strong>
+              </div>
+              <div>
+                <strong class="busd">Fist</strong>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-5" style="justify-content: space-evenly;">
+            <div class="col-xl-5 first-box">
+              <div class="mine-card">
+                <div class="row example">
+                  <div class="col-lg-8">
+                    <div style="line-height: 1.8;">
+                      <strong>
+                        招聘示例
+                      </strong>
+                      <div>
+                        <div>100<span class="busd">Fist</span>gets you:</div>
+                        <div>
+                          <i class="bi-minecart"></i>
+                          农夫:
+                          <span id="example-miners">0</span>
+                        </div>
+                        <div>
+                          <i class="ri-coins-line ri-1x"></i>
+                          每日:
+                          <span id="example-busd">0</span><span class="busd">Fist</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="wallet">
+                      <i class="bi-wallet2"></i>
+                      <strong>钱包</strong>
+                      <div>
+                        <span id="user-balance">0</span><br><span class="busd">Fist</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+				<br><br>
+		<div class="btn-container">
+			<div class="approve-container">
+				<div style="padding-left: 5px; font-weight: 700;">
+				  <span style="font-size: 16px;">1.</span><!-- <i class="bi-bank"></i> -->
+				  <strong>批准</strong><span class="busd"> Fist </span><span class="usd">(<span id="user-approved-spend">0</span>Fist 批准)</span>
+				  <!-- <span class="usd">
+					≈ $<span id="user-approved-spend-usd">0 </span><span> USD</span>
+				  </span> -->
+				</div>
+				<div>
+				  <input class="form-control" id="approve-spend" name="approved-spend" step="1" type="number" value="1000">
+				  <button class="btn glow-on-hover" id="" onclick="approveMiner()" role="button" type="button" style="margin-top: 5px;">批准 Fist</button>
+				</div>
+			</div>
+			<strong>
+			  <i class="bi-bank"></i>
+			  存入 <span class="busd">Fist</span>
+			  <span class="usd">
+				( 最小<span class="busd" id="min-deposit">0 </span>, 
+			  </span>	
+			  <span class="usd">
+				最大<span class="busd" id="max-deposit">0</span>)</span>
+			  <input class="form-control" id="busd-spend" name="buy-miners" onChange="updateBuyPrice()" step="100" type="number" value="100">
+			</strong>
+			<button class="btn glow-on-hover" id="buy-eggs-btn" onclick="buyEggs()" role="button" disabled style="margin-top: 5px;">
+			  雇佣
+			  <span id="eggs-to-buy">0</span>
+			  位农夫
+			</button>
+	    	</div>
+        </div>
+            </div>
+            <div class="col-xl-5">
+              <div class="mine-card">
+                <div class="miners-info" style="margin-bottom: unset;">
+                  <div>
+                    <i class="bi-minecart"></i>
+                    <span id="your-miners">- </span>
+                    农夫
+                  </div>
+                  <div>
+                    <i class="bi-arrow-down-short" style="font-size: 23px;"></i>
+                  </div>
+                  <div style="font-size: 21px;">
+                    <i class="ri-coins-line ri-1x"></i>
+                    <strong id="mined">-</strong>
+                    <span><strong class="busd">作物</strong></span>
+                  </div>
+                  <div class="usd" style="font-size: 14px; padding: 15px 0 25px 0">
+                    <strong>预计日产量</strong>
+                    <div>
+                      <span id="eggs-per-day">0</span><strong class="busd">Fist</strong>
+                    </div>
+                  </div>
+                </div>
+                <div>
+	                <br>
+                  <div class="timer">
+                    <i class="bi-hourglass-split"></i>
+                    购物车将满
+                  </div>
+                  <div style="text-align: center; padding-bottom: 7px;"><span id="claim-timer">--:--:--</span></div>
+				  <br>
+				  <div class="timer">
+				    <i class="bi-arrow-repeat"></i>
+                    化合物计数: 
+					<span id="compound-count"> 0</span>
+                  </div>			
+                  <div class="btn-container" style="margin-top: 35px;">
+                    <div>
+                      <button class="btn glow-on-hover" id="withdraw" onclick="sellEggs()" role="button" disabled>
+                        收获作物
+                        <span class="cooldown" id="cooldown-timer"> --:--:--</span>
+                        <span class="tax" id="withdraw-tax">-60% 税收</span>
+                      </button>
+                    </div>
+                    <br>
+                    <div>
+                      <button class="btn glow-on-hover" id="reinvest" onclick="hatchEggs()" role="button" disabled>
+                        雇佣更多的农夫
+                        <span class="compound">
+                          (<span class="compound" id="compound-bonus">+0% 奖金</span>)
+                        </span>
+                      </button>
+                    </div>
+					<div class="timer" style="padding: 16px;">
+				    <i class="bi bi-clock"></i>
+                    直到下一次雇佣奖金被激活: 
+					<span style="font-weight: 700;" id="compound-timer"> --:--:--</span>
+                  </div>
+					<!--<div style="padding: 16px;">Time until next hire bonus is activated: <span style="font-weight: 700;" id="compound-timer">--:--:--</div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-4 sub-section">
+          每次您在时间间隔后雇用或重新雇用农夫时，复合计数器都会增加，您的雇用奖金会增加
+          <span id="compound-percent">-%</span>
+          (最大 <span id="max-compound">+-%</span>). 收割庄稼会将您的奖励重置为 0。
+          <!--Time until next hire bonus is activated: <span style="font-weight: 700;" id="compound-timer">--:--:--</span>-->
+        </div>
+        <div class="row">
+          <div class="col-lg-12 referral-link">
+            <span>
+              <i class="bi-check2-square"></i>
+              赚取奖励
+              <span id="ref-percent">-%</span>
+              <span>当有人使用您的推荐链接时 !</span>
+              <span>
+                <a id="reflink"></i></a><span onclick="copyRef()"><i class="ri-file-copy-line"></i><span id="copied"></span>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Dashboard Section -->
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    
+	<section id="faq" class="bg faq section-bg">
+      <div class="container" data-aos="fade-up">
+	      <br>
+	      <h4 style="color: #fff; justify-content: center; font-family: cursive;"><div class="busd">经常问的问题</div></h4>
+	<div class="faq-list">
+          <ul>
+            <li>
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                class="collapse"
+                data-bs-target="#faq-list-1"
+                >农夫的Fist是什么?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div
+                id="faq-list-1"
+                class="collapse show"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  Fist农场 是一个基于币安智能链的去中心化应用程序。游戏的目的是比其他玩家更快、更频繁地雇佣更多的农夫。这反过来又可以更快地为您赚取更多的 Fist。这些农夫不知疲倦地为您工作，平均每天为您提供农夫价值的 8%。
+				<p>				
+          每日百分比回报取决于玩家在平台内采取的影响农夫效率的行动。随着用户购买农夫、和重新雇用用你的您的收入并以 Fist 出售您的 作物，农业效率会上升和下降。
+				<p>
+          一旦购买了农夫，他们就无法出售，并且为重新雇用他们（通过雇用或重新雇用）而进行的投资无法收回。但是，一旦购买，农夫将不会停止生产。
+              </div>
+            </li>
+            <li>
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                class="collapse"
+                data-bs-target="#faq-list-2"
+                >它与其他类似平台有何不同？?
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div
+                id="faq-list-2"
+                class="collapse show"
+                data-bs-parent=".faq-list"
+              >
+                <p>
+                  Fist农场 制定了多项反倾销和反鲸鱼措施，以确保项目的寿命。这些措施包括最大存款，以及取款的截止时间和冷却时间。
+                <p>
+                  截止时间是您的“购物车”装满奖励所需的时间。一旦袋子装满，它将停止填充，直到您在游戏中采取了一些行动。这是为了防止鲸鱼让他们的奖励长期累积，并消除当大部分奖励是鲸鱼等待立即提取的奖励时，合约价值正在上涨的错误印象。
+                <p>
+                  退出冷却时间是一个人必须等待的时间，然后才能进行另一次退出。这也可以防止合约余额过快贬值。如果团队认为有必要保护合约余额，则可以调整此时间段以降低提款速度，但只能将其设置为小于或等于 24 小时的值（根据合约规则）。
+                <p>
+                  复合计数是用户复合的次数。默认情况下，平台要求的复利数为5，这意味着用户必须复利5次（每12小时复利一次）才能退出，而无需支付60%的反馈税。此功能本质上将确保项目的寿命和稳定性。
+                <p>
+                  为了奖励复合的用户，当您重新雇用您的每日作物收入而不是出售它们时，会有奖金。奖金每 12 小时增加 2.5%，您在不退出的情况下复合（5 天后最多 25%）。这会激励用户更频繁地进行复合，从长远来看，这将有助于提高农场的效率。为了能够利用重新雇用奖金功能，玩家不得在提供的计时器到达 00:00:00 之前进行复合。
+                <p>
+                  对于选择不玩游戏而只销售的玩家，将保留在合同中的销售将被征收 60% 的税。如果玩家连续进行两次或两次以上的销售，将适用此税。用户不支付 60% 税的唯一方法是在再次提款之前复利 5 倍。
+                </p>
+              </div>
+            </li>
+            <li>
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                class="collapse"
+                data-bs-target="#faq-list-3"
+                >这个平台是如何运作的？
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div
+                id="faq-list-3"
+                class="collapse show"
+                data-bs-parent=".faq-list">
+                <p>
+                  该平台的工作方式类似于金融市场，其中资产具有与该资产的供求相关的内在价值。农夫以相对于农夫当前采矿效率的价格以预先确定的货币购买。购买农夫后，他们会立即为您工作，以尽可能长时间地为您提供最佳投资收益。就像在公开市场上买卖任何其他资产一样，农夫 的价格会随着时间的推移而波动，采矿效率也会随着您和其他玩家招募 Farmers、复合收益和出售收益而波动。说白了，对农夫的需求越多，他们的价值就会增加得越多，他们的产量就会越高。反之，
+                <p>
+                  该游戏与传统金融市场的主要区别在于招募的农夫不能出售，只能出售他们提供的价值。随着游戏玩家作为一个整体的收入复合并进行新存款，游戏效率将保持相对恒定，但当玩家开始销售超过他们的复合时，效率将开始下降，以保持TVL 和游戏的寿命。
+                </p>
+              </div>
+            </li>
+			<li>
+              <i class="bx bx-help-circle icon-help"></i>
+              <a
+                data-bs-toggle="collapse"
+                class="collapse"
+                data-bs-target="#faq-list-4"
+                >推荐的策略是什么？
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-chevron-up icon-close"></i
+              ></a>
+              <div
+                id="faq-list-4"
+                class="collapse show"
+                data-bs-parent=".faq-list">
+                <p>
+                  团队可以推荐的最佳策略是重新雇用/复合 6 天，每周收获 1 天。这将增加用户投资的同时增加每日收益收益。这种策略已经被多个项目尝试和测试过，并且被证明在短期和长期都是有效的。
+                </p>
+              </div>
+            </li>
+        </div>
+      </div>
+    </section>
+    <!-- End Frequently Asked Questions Section -->
+
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        © 版权所有 <strong><span>Fist 农场团队</span></strong>. 版权所有
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script type="text/javascript" src="assets/js/main_eth.js"></script>
+</body>
+
+</html>
